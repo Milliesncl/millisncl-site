@@ -1,0 +1,32 @@
+@import "avatar.css";
+
+body {
+  background-color: #ffffff;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  padding: 18vh 1rem;
+  text-align: center;
+
+}
+
+h1 {
+    border-bottom: 1px solid #9E9E9E;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #9E9E9E;
+}
+
+
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
+.middleman-logo {
+  margin-bottom: 1rem;
+  width: 10rem;
+}
