@@ -1,0 +1,29 @@
+.navbar {
+  height: 45px;
+  width: 100%;
+  background-color: #99B6D9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .menu > a {
+    margin: 12px;
+  }
+
+  .social-links > a {
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+
