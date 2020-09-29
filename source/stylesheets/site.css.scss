@@ -1,23 +1,29 @@
 @import "avatar.css";
 @import "navbar.css";
-@import "social-links.css";
 
 body {
   background-color: #ffffff;
   color: #333;
   font-family: 'Poppins', sans-serif;
-  padding: 18vh 1rem;
+  font-weight: 400;
   text-align: center;
-
 }
 
-h1 {
+.container {
+  padding: 14vh 4rem;
+}
+
+h1, h2 {
     border-bottom: 1px solid #9E9E9E;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     text-transform: uppercase;
     color: #9E9E9E;
 }
 
+h2 {
+  text-align: left;
+}
 
 a {
   color: #ffffff;
@@ -29,4 +35,14 @@ a {
   &:hover {
     color: rgba(#000, 0.6);
   }
+}
+
+.text {
+  text-align: left;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 0.02sem;
+  line-height: 150%;
 }
