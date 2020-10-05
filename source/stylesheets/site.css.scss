@@ -10,7 +10,10 @@ body {
 }
 
 .container {
-  padding: 14vh 4rem;
+  @media (max-width: 576px) { padding: 14vh 4rem; }
+  @media (min-width: 576px) { padding: 14vh 6rem; }
+  @media (min-width: 900px) { padding: 14vh 14rem; }
+
 }
 
 h1, h2 {
