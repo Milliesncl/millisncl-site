@@ -46,3 +46,11 @@ p {
   letter-spacing: 0.02sem;
   line-height: 150%;
 }
+
+.experience {
+  display: flex;
+  .avatar {
+    height: 40px;
+    margin-right: 5px;
+  }
+}
